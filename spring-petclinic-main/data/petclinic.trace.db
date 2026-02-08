@@ -1,0 +1,15 @@
+2026-02-08 19:58:24.457234+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEATURE_FLAGS" not found (this database is empty); SQL statement:
+select ff1_0.id,ff1_0.blacklist,ff1_0.enabled,ff1_0.flag_type,ff1_0.name,ff1_0.percentage,ff1_0.whitelist from feature_flags ff1_0 where ff1_0.name=? [42104-240]
+2026-02-08 19:58:38.289827+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETS" not found (this database is empty); SQL statement:
+select v1_0.id,v1_0.first_name,v1_0.last_name from vets v1_0 offset ? rows fetch first ? rows only [42104-240]
+2026-02-08 19:58:41.422092+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VETS" not found (this database is empty); SQL statement:
+select v1_0.id,v1_0.first_name,v1_0.last_name from vets v1_0 offset ? rows fetch first ? rows only [42104-240]
+2026-02-08 19:58:42.589571+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEATURE_FLAGS" not found (this database is empty); SQL statement:
+select ff1_0.id,ff1_0.blacklist,ff1_0.enabled,ff1_0.flag_type,ff1_0.name,ff1_0.percentage,ff1_0.whitelist from feature_flags ff1_0 where ff1_0.name=? [42104-240]
+2026-02-08 19:58:57.008650+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FEATURE_FLAGS" not found (this database is empty); SQL statement:
+select ff1_0.id,ff1_0.blacklist,ff1_0.enabled,ff1_0.flag_type,ff1_0.name,ff1_0.percentage,ff1_0.whitelist from feature_flags ff1_0 where ff1_0.name=? [42104-240]
